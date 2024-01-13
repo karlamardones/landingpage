@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #2D2F6B;
+}
+
+.menu_inicio {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menu_menu {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #FFF;
+}
+
+.menu_menu:hover {
+    font-weight: 700;
+}
+
+.conteudo_principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.conteudo_um {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.imagem_inicio {
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+}
+
+.conteudo_dois {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    padding: 70px 300px 0 330px;
+}
+
+.conteudo_links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 120px;
+}
+
+.link_ {
+    border-radius: 45px;
+    border: 1px solid #D9D9D9 ;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #FFF;
+    padding: 20px 30px;
+}
+
+.link_:hover {
+    background-color: #4B4D80;
+}
+
+.cv_inicio {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 25px;
+}
+
+.imagem_cv {
+    width: 180px;
+    height: 180px;
+    border-radius: 500px;
+}
+
+.titulo_cv {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.conteudo_principal_cv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    gap: 20px;
+    align-content: space-between;
+}
+
+.topicos_um {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.conteudo_cv_contato {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.contato_titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.telefone_div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.numero_tel {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.e-mail_div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.e-mail {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.conteudo_cv_formacao {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.formacao_titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.formacao {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.data {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.topicos_dois {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+}
+
+.idiomas_titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.idioma {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+}
+
+.habilidades_titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.habilidade {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.competencias {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+}
+
+.competencias_titulo {
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.competencia {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
